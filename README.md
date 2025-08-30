@@ -1,4 +1,4 @@
-# Project Overview
+#### Project Overview
 To achieve the goal of this project, a log was created containing over 300 entries detailing all foods consumed daily. Each entry includes calories, protein, carbohydrates, fats (lipids), and sodium, sourced from MyFitnessPal.
 
 The most influential attributes in the dataset appear to be fats, carbohydrates, and proteins. Previous regression analyses demonstrated that these three variables are strongly correlated with total calorie intake.
