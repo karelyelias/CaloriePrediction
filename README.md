@@ -1,14 +1,14 @@
-# Proyecto de Ciencia de Datos: Predicción de Calorías
-Para lograr el objetivo del presente proyecto se creó una bitácora con más de 300 datos con todos los alimentos consumidos día con día, con sus respectivas calorías, proteínas, carbohidratos, lípidos (grasas), y sodio obtenidas de MyFitnessPal.
+# Project Overview
+To achieve the goal of this project, a log was created containing over 300 entries detailing all foods consumed daily. Each entry includes calories, protein, carbohydrates, fats (lipids), and sodium, sourced from MyFitnessPal.
 
-Los atributos de la base de datos que parecen más comprometedores son los lípidos, los carbohidratos, y las proteínas, debido a que después de haber realizado anteriormente varios análisis regresivos se demostraron que estos tres atributos están relacionados a la cantidad de calorías consumidas.
+The most influential attributes in the dataset appear to be fats, carbohydrates, and proteins. Previous regression analyses demonstrated that these three variables are strongly correlated with total calorie intake.
 
-### Tecnologías y librerías
+### Technologies and Libraries
 - Python (pandas, numpy, matplotlib, sklearn, scipy)
-- Modelos: LinearRegression, GradientBoostingRegressor, KNeighborsRegressor
-- Visualización 3D con mpl_toolkits.mplot3d
+- Models: LinearRegression, GradientBoostingRegressor, KNeighborsRegressor
+- 3D Visualization using mpl_toolkits.mplot3d
 
-### Hallazgos clave
-- Los modelos confirman que proteínas y carbohidratos aportan ~4 kcal/g, mientras que lípidos ~8–9 kcal/g.
-- El modelo con mejor desempeño fue KNeighborsRegressor con un R² ≈ 0.99.
-- El sodio fue descartado por no tener impacto calórico.
+### Key Findings
+- The models confirm that proteins and carbohydrates contribute approximately 4 kcal/g, while fats contribute around 8–9 kcal/g.
+- The best-performing model was KNeighborsRegressor, with an R² ≈ 0.99.
+- Sodium was excluded due to its lack of caloric impact.
